@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Incluimos el JS del programa incluyendo la palabra reservada defer para que se cargue junto con el html-->
+    <script defer src="cajero.js"></script>
+
+    <!--  Libreria de animación-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="" class="form-box">
+        <!-- Clase para animación-->  
+        <img src="img/BBVA-LOGO.png" class="animate__animated animate__flipInX" alt="logo BBVA">
+        <h1 class="form-title">Ingresa tus datos</h1>
+        <input type="email" name="email" id="email" placeholder="Email"><!-- INPUT PARA EL CORREO DEL USUARIO -->
+        <input type="password" name="password" id="password" placeholder="Contraseña"><!-- INPUT PARA LA CONTRASEÑA -->
+        <button type="button" onclick="login(true)">INGRESAR</button><!-- BOTON PARA EJECUTAR LA FUNCION 'LOGIN' -->
+    </form>
+</body>

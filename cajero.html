@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="cajero.css">
+    <script src="https://kit.fontawesome.com/dee10518ae.js" crossorigin="anonymous"></script>
+    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script defer src="cajero.js"></script>
+    <title>Cajero</title>
+</head>
+<body onload="inicio()">
+    
+    <div id="contenedor">
+        <header>            
+            <p><span><img src="img/BBVA-LOGO.png" alt=""></span> Cajero Automático</p>
+        </header>
+        <nav id="cuenta"></nav> <!-- En esta parte aparecerá el nombre de Usuario y su número de cuenta mediante la funcion Inicio y los document.getElementById -->
+
+        
+        
+        <section id="contenido">
+
+            <div id="consulta-saldo">
+                <h2>Saldo disponible</h2>
+                <h3 id="saldo"></h3><!-- Se mostrará el saldo mediante la funcion Inicio y los document.getElementById -->
+            </div>
+
+            <div id="ingresar-monto" class="ingresar-monto">
+                <form action="" class="form-box">
+                    <label for="cantidadIngreso">Ingresar Monto</label>
+                    <input type="text" name="cantidadIngreso" id="cantidadIngreso" placeholder="Digita el monto a ingresar">
+                    <button type="button" onclick="nuevoIngreso()">INGRESAR</button>
+                </form>
+            </div>
+
+            <div id="retirar-monto">
+                <form action="" class="form-box">
+                    <label for="cantidadRetiro">Retirar Monto</label>
+                    <input type="text" name="cantidadRetiro" id="cantidadRetiro" placeholder="Digita el monto a retirar">
+                    <button type="button" onclick="nuevoRetiro()">RETIRAR</button>
+                </form>
+            </div>
+
+        </section>
+        <aside>
+            <p>OPCIONES</p>
+            <ul>
+                <li><button type="button" onclick="vistaConsultar()"><i class="icono fa-solid fa-wallet"></i><h4>Consultar Saldo</h4></button></li>
+                <li><button type="button" onclick="vistaIngresar()"><i class="icono fa-solid fa-piggy-bank"></i><h4>Ingresar Monto</h4></button></li>
+                <li><button type="button" onclick="vistaRetirar()"><i class="icono fa-solid fa-hand-holding-dollar"></i><h4>Retirar Monto</h4></button></li>
+            </ul>
+        </aside>
+        <footer>
+            <img src="img/BBVA-LOGO.png" alt="">
+        </footer>
+    </div>    
+</body>
+
+</html>

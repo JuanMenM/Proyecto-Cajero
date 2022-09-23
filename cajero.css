@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+    color: #13549C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contenedor{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+head{
+    height: 150px;
+    background-color: #13549C;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+
+header p{
+    font-size: 70px;
+    text-align: center;
+}
+img{
+    max-width: 200px;
+}
+
+nav{
+    background-color: #13549C;
+    color: aliceblue;    
+    font-size: 30px;
+    height: 80px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav button{
+    border: 0;
+    background: #13549C;
+    color: aliceblue;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 11px;
+    transition: .25s;
+}
+nav button:hover{
+    background: #8fc1fa;
+    padding: 5px;
+}
+
+#contenido{
+    width: 70%;
+    height: auto;
+    float: left;
+    background: aliceblue;
+}
+
+#contenedor h2{
+    font-size: 70px;
+    text-align: center;
+    line-height: 300px;
+}
+
+#contenedor h3{
+    font-size: 60px;
+    text-align: center;
+}
+
+aside{
+    width: 30%;
+    height: auto;
+    background-color: #8fc1fa;
+    float: right;
+    text-align: center;
+}
+
+aside li{
+    list-style: none;
+    padding-bottom: 60px;
+}
+
+aside button{
+    border: 0;
+    background: #13549C;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 20px;
+    padding: 14px 10px;
+    border: 2px solid #8fc1fa;
+    border-radius: 10px;
+    width: 200px;
+    font-size: medium;
+    transition: .25s;
+}
+
+aside p{
+    font-size: x-large;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+aside button:hover{
+    background: #8fc1fa;
+    border: solid #13549C;
+
+}
+
+.icono{
+    font-size: 40px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+footer{
+    background-color: #1d1d1d;
+    clear: both;
+}
+
+footer img{
+    padding: 20px;
+
+}
+
+.ingresar-monto{
+    font-size: 70px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.form-box{
+    width: 100%;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-title{
+    font-size: 20px;
+    color: #13549C;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.form-box input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px;
+    padding: 14px 10px;
+    border: 2px solid #8fc1fa;
+    border-radius: 10px;
+    width: 75%;
+    height: 40px;
+    font-size: 40px;
+    color: #13549C;
+    font-weight: bold;
+    outline: none;
+    transition: .25s;
+}
+
+.form-box input:focus{
+    width: 80%;
+    border-color: #13549C;
+}
+
+.form-box button{
+    border: 0;
+    background: #13549C;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 20px;
+    padding: 14px 10px;
+    border: 2px solid #8fc1fa;
+    border-radius: 10px;
+    width: 200px;
+    font-size: medium;
+    transition: .25s;
+}
+
+.form-box button:hover{
+    background: #8fc1fa;
+}
